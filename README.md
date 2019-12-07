@@ -10,4 +10,6 @@ This is a standard Symfony 4 application. You need PHP and MySQL and some sort o
 - Import dump from `/sql/dump.sql`
 - run `composer install`
 
+For more details, take a look a <a href="https://github.com/ezsystems/ezplatform#installation">the installation instructions</a> on the official <a href="https://github.com/ezsystems/ezplatform">eZ Platform repository</a>.
+
 Note that currently OPCache Preloading for PHP 7.4 is not working due to some segfaulting. Read more: https://ezplatform.com/blog/benchmarking-php-7.4-opcache-preloading-with-symfony-4.4
