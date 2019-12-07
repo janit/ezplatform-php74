@@ -7,8 +7,10 @@ A repository for an in-progress version of eZ Platform v3.0.0 used for benchmark
 This is a standard Symfony 4 application. You need PHP and MySQL and some sort of web server before installation. Oh, and Node.js and Yarn for building front end assets. After you've got everything in place, installation is roughly:
 
 - create a MySQL database
-- Import dump from `/sql/dump.sql`
+- Import dump from `sql/dump.sql`
 - run `composer install`
+- configure db from `.env`
+- run webserver (<a href="https://symfony.com/download">Symfony CLI</a> works fine)
 
 For more details, take a look a <a href="https://github.com/ezsystems/ezplatform#installation">the installation instructions</a> on the official <a href="https://github.com/ezsystems/ezplatform">eZ Platform repository</a>.
 
